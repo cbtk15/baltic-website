@@ -19,13 +19,17 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     border: none;
-    border-radius: 5px;
     padding: 10px;
     width: 140px;
     display: block;
     margin: 15px auto;
     cursor: pointer;
     transition: var(--transition);
+    -o-border-radius: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .btn:hover{
@@ -104,13 +108,17 @@ img{
     font-size: 20px;
     font-weight: bold;
     border: 3px solid white;
-    background: transparent;
+    -o-border-radius: 10px;
     padding: 13px 20px;
     background: rgba(0, 0, 0, 0.3);
     color: white;
     cursor: pointer;
     transition: var(--transition);
     list-style-type:none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
 }
 .head-btn:hover{
     background: transparent;
